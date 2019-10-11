@@ -1,0 +1,12 @@
+
+<%- include("partials/header.ejs"); -%>
+
+<h1>Home</h1>
+<p><%= TextHome%> </p>
+
+<%for (var i = 0; i < array.length; i++) { %>
+  <% console.log(array[i].title); %>
+<%} %>
+
+
+<%- include("partials/footer.ejs") -%>
